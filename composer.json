@@ -1,0 +1,27 @@
+{
+    "name": "frne/neo4j-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Neo4jBundle",
+    "keywords": ["Database Access, Graph, Neo4j"],
+    "homepage": "https://github.com/frne/Neo4jBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Neff",
+            "email": "fneff89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "hirevoice/neo4jphp-ogm": "dev-master",
+        "everyman/neo4jphp": "dev-master"
+    },
+    "require-dev": {
+        "zendframework/zenddiagnostics": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Frne\\Bundle\\Neo4jBundle": "" }
+    },
+    "target-dir": "Frne/Bundle/Neo4jBundle"
+}
